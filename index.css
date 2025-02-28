@@ -1,0 +1,88 @@
+
+header {
+    text-align: center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin: 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+header h1:hover {
+    text-decoration: underline;
+}
+
+header p {
+    font-size: 28px;
+    margin-top: 8px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+#Product-data {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.Product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.Product:hover {
+    transform: translateY(-5px);
+}
+
+.product-image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.product-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e53935;
+    margin-bottom: 8px;
+}
+
+.product-rating {
+    font-size: 14px;
+    color: #f57c00;
+}
